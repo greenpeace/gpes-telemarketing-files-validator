@@ -39,14 +39,18 @@ And go to [localhost:8000](http://localhost:8000/)
 
 ## Edit the validators rules
 
-The folder `validators` contain the file specific validators rules.
+The folder [validators](validators) contain the file specific validators rules.
 
-The file `src/js/tlmkValidator.js` is a general library with an object that's inherited by all specific file validators. This object is inherited and can be overwriten.
+The file [src/js/tlmkValidator.js](src/js/tlmkValidator.js) is a general library with an object that's inherited by all specific file validators. This object is inherited and can be overwriten.
 
 Other code is in the `src` folder.
 
 ## License and use
 
-This software is fit-for-purpose but you can modify it for your own needs under the GPLv3 license. Due to it's nature we will not accept pull requests.
+This software is fit-for-purpose but you can modify it for your own needs under the [GPLv3 license](LICENSE). Due to it's nature we will not accept pull requests.
 
-The Greenpeace logo on top of each page is trademarked by Greenpeace and can't be used outside Greenpeace.
+The [Greenpeace logo](img/greenpeace-logo-verde.svg) on top of each page is trademarked by Greenpeace and can't be used outside Greenpeace.
+
+## Validating files in a server
+
+In principle it’s possible to use Papaparse from Nodejs and validate the CSVs on the server with similar code. If needed this will be added in the future.
