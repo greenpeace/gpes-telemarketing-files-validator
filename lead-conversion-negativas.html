@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Validar fichero de lead conversion negativas</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i" rel="stylesheet">
+	<link href="css/styles.min.css" rel=stylesheet>
+	<meta name="robots" content="noindex, nofollow">
+</head>
+
+<body>
+	
+	<h1>Validar fichero de lead conversion <u>negativas</u> &bull; Telemarketing / Salesforce</h1>
+	
+	<p class="pdim"><a class="dim" href="./">&lt;&lt; Menu</a></p>
+	
+	<div>	
+		<form>
+			<div>
+				<label for="files">Elige un fichero CSV de lead conversion negativas</label>
+				<input type="file" id="files" title="Fichero CSV" class="custom-file-input" />
+			</div>
+			<div>
+				<button id="submit" type="button" title="Verificar el fichero. Haz click una sola vez.">Procesar</button>
+				<button id="clear" type="reset" title="Elegir otro fichero. Haz click una sola vez.">Resetear</button>
+			</div>
+		</form>
+	</div>
+	
+	<p>Hash: <span id="fileHash"></span></p>
+	<p>Registros: <span id="recordsNumber"></span></p>
+	
+	
+	<div id="errorHeaders">
+		<h2>Errores en la cabecera</h2>
+		<div>
+			<h3>Lo que debría estar:</h3>
+			<ul id="correctHeaders"></ul>
+		</div>
+		<div>
+			<h3>Lo que realmente está:</h3>
+			<ul id="headersInTheFile"></ul>
+		</div>
+	</div>
+	
+	<div id="errorRecords">
+		<h2>Errores en los registros:</h2>
+		<pre>
+		</pre>	
+	</div>
+	
+	<script src="js/libs.min.js"></script>
+	<script src="js/validator.min.js"></script>
+	<script src="validators/leadFileValidatorNegative.js"></script>
+	
+	<script src="js/lead-conversion.min.js"></script>
+</body>
+</html>
