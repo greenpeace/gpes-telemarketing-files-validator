@@ -271,11 +271,7 @@ leadFileValidator.checkCsvData = function( rowindex, row ) {
 			if ( Number(year) != currentDate.getFullYear() + 1 ) {
 				errorsInRecord = errorsInRecord + prefix + "El valor del año tiene que ser el año que viene" + " (Donation Start Date)" + "\n";					
 			}
-			
-			if ( Number(month) < Number(next2Month) ) {
-				errorsInRecord = errorsInRecord + prefix + "El valor del mes tiene que mayor que el mes siguiente" + " (Donation Start Date)" + "\n";
-			}
-			
+		
 		}
 		
 		if ( year != currentDate.getFullYear()  && year != currentDate.getFullYear() + 1 ) {
