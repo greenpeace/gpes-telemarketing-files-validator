@@ -246,18 +246,18 @@ reactivationFileValidator.checkCsvData = function( rowindex, row ) {
 		var currentDate = new Date();
 		var thisMonth = currentDate.getMonth() + 1;
 		// var thisMonth = 12;
-		var next2Month = thisMonth + 2;
-		if ( next2Month > 12) {
-			next2Month = next2Month - 12;
+		var nextMonth = thisMonth + 1;
+		if ( nextMonth > 12) {
+			nextMonth = nextMonth - 12;
 		}
 		if ( day != "01") {
 			errorsInRecord = errorsInRecord + prefix + "El valor del día tiene que ser 01" + " (Donation Start Date)" + "\n";
 		}
 		
-		if ( thisMonth <= 10) {
+		if ( thisMonth <= 11) {
 			
-			if ( ( Number(month) < Number(next2Month) ) && (currentDate.getFullYear() >= year)  ) {
-				errorsInRecord = errorsInRecord + prefix + "El valor del mes tiene que mayor que el mes siguiente" + " (Donation Start Date)" + "\n";	
+			if ( ( Number(month) < Number(nextMonth) ) && (currentDate.getFullYear() >= year)  ) {
+				errorsInRecord = errorsInRecord + prefix + "El valor del mes tiene que ser el mes siguiente" + " (Donation Start Date)" + "\n";	
 			}
 			
 		} else {
