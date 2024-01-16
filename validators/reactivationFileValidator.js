@@ -1,6 +1,6 @@
 reactivationFileValidator = Object.create(tlmkValidator);
 
-reactivationFileValidator.version = "3.0";
+reactivationFileValidator.version = "3.1";
 
 reactivationFileValidator.fields = ["DCAMPAIGNMEMBERID", "DINCOMPLETE", "DPROCESSNAME", "AccionGP", "ConfirmacionAccionGP", "REgGivingStatus", "DIDDECONTACTO", "DINITIALSOURCE", "ID de la guía de pago", "Amount", "TransactionsperYear", "CURRENTPAYMENTMETHOD", "SIGNUPDATE", "DWELCOMECALLDATE", "1st payment Amount", "Transaction Payment Method", "Update Payment Details", "AccountName", "IBAN", "DCREDITCARDNUMBER", "DNAMEONCARD", "DEXPIRYMONTH", "DEXPIRYYEAR", "DIATSCUSTOMERCODE", "DIDDECAMPANA", "DLIFETIMEHARDANDSOFTCREDDON", "DLIFETIMEHARDCREDITDONTOTAL", "DLASTYEARSHARDCREDITDONTOTAL", "DFIRSTHARDCREDITDONDATE", "DLASTHARDCREDITDONDATE", "cancelation date", "cancelation MOTIVO", "RazonCancelacion", "ComentariosGuia", "Gender", "DNI", "FirstName", "LastName", "Birthdate", "Street", "PostalCode", "City", "Province", "DCOUNTRY", "PHONE", "MOBILEPHONE", "EMAIL", "MAILOK", "EMAILOK", "SMSOK", "PHONEOK", "PERMITGOVTAXESSENT", "CommunicationPreferenceNotes", "REVCREATECASE", "CASEDESCRIPTION", "CierreGP", "FECHACIERRE", "ID", "PAIS", "Donation Start Date", "Facturacion TMK"];
 

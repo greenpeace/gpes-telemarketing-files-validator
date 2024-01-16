@@ -1,6 +1,6 @@
 leadFileValidator = Object.create(tlmkValidator);
 
-leadFileValidator.version = "3.0";
+leadFileValidator.version = "3.1";
 
 leadFileValidator.fields = ["DCAMPAIGNMEMBERID", "DINCOMPLETE", "DPROCESSNAME", "DACTIONTYPE", "DACTIONTYPESUCCESS", "REgGivingStatus", "LeadStatus", "DLEADID", "DSOURCEADICIONALPARATMK", "Amount", "TransactionsperYear", "CURRENTPAYMENTMETHOD", "SIGNUPDATE", "1st payment Amount", "Transaction Payment Method", "AccountName", "IBAN", "DIDDECAMPANA", "Gender", "DNI", "FirstName", "LastName", "Birthdate", "Street", "PostalCode", "City", "Province", "DCOUNTRY", "PHONE", "MOBILEPHONE", "EMAIL", "MAILOK", "EMAILOK", "SMSOK", "PHONEOK", "PERMITGOVTAXESSENT", "CommunicationPreferenceNotes", "REVCREATECASE", "CASEDESCRIPTION", "CIERREDESC", "RDATE", "ID",  "PAIS", "Donation Start Date", "Facturacion TMK"];
 
